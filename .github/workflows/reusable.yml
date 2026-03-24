@@ -4,6 +4,7 @@ on: workflow_call
 jobs:  
   deploy:
     runs-on: ubuntu-latest
-    steps: 
-      - name: show informations
-        run: echo "Reusable Workflow"
+    steps:
+      - name: deploy
+        run: echo "hi hi deploying"
+    
