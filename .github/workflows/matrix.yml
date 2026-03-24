@@ -26,10 +26,3 @@ jobs:
         run: npm ci
       - name: build project 
         run: npm run build
-      - name: upload artifact
-        uses: actions/upload-artifact@v4
-        with: 
-          name: dist
-          path: dist
-      - name: test
-        run: echo "test tests"
